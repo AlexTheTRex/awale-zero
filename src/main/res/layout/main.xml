@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+            android:id="@+id/activity_main_you_played"
+            android:layout_gravity="top"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:text="You played"
+            android:gravity="center"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:id="@+id/activity_main__before_top_cups"
+    >
+        <Button
+                android:id="@+id/activity_main_before_cup11"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+                android:gravity="center"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup10"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup9"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup8"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup7"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup6"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="bottom"
+                  android:id="@+id/activity_main__before_bottom_cups"
+                  android:gravity="center"
+    >
+        <Button
+                android:id="@+id/activity_main_before_cup0"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup1"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup2"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup3"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup4"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_before_cup5"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/activity_main_computer_played"
+            android:layout_gravity="top"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+            android:text="Computer played"
+            android:gravity="center"
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:id="@+id/activity_main_bbefore_top_cups"
+    >
+        <Button
+                android:id="@+id/activity_main_bbefore_cup11"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+                android:gravity="center"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup10"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup9"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup8"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup7"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup6"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="bottom"
+                  android:id="@+id/activity_main_bbefore_bottom_cups"
+                  android:gravity="center"
+    >
+        <Button
+                android:id="@+id/activity_main_bbefore_cup0"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup1"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup2"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup3"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup4"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_bbefore_cup5"
+                android:layout_gravity="center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/activity_main_log"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textColor="#FFFFFF"
+            android:text =""
+            android:background="@drawable/awale_logo"
+
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:id="@+id/activity_main_top_cups"
+                  >
+        <Button
+            android:id="@+id/activity_main_cup11"
+            android:layout_gravity="center"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:background="@drawable/circle"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds ="true"
+            android:textColor="#000000"
+            android:gravity="center"
+    />
+        <Button
+                android:id="@+id/activity_main_cup10"
+                android:layout_gravity="center"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_cup9"
+                android:layout_gravity="center"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_cup8"
+                android:layout_gravity="center"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_cup7"
+                android:layout_gravity="center"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+        <Button
+                android:id="@+id/activity_main_cup6"
+                android:layout_gravity="center"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds ="true"
+                android:textColor="#000000"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="bottom"
+                      android:gravity="center"
+        >
+            <Button
+                    android:id="@+id/activity_main_cup0"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+            <Button
+                    android:id="@+id/activity_main_cup1"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+            <Button
+                    android:id="@+id/activity_main_cup2"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+            <Button
+                    android:id="@+id/activity_main_cup3"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+            <Button
+                    android:id="@+id/activity_main_cup4"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+            <Button
+                    android:id="@+id/activity_main_cup5"
+                    android:layout_gravity="center"
+                    android:layout_width="66dp"
+                    android:layout_height="66dp"
+                    android:background="@drawable/circle"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds ="true"
+                    android:textColor="#000000"
+            />
+        </LinearLayout>
+    <TextView
+            android:id="@+id/activity_main_scores"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold"
+            android:text="Player : 0    CPU : 0 "
+            android:gravity="center"
+    />
+    <Button
+            android:id="@+id/activity_main_computer_play_button"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/circle"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds ="true"
+            android:textStyle="bold"
+            android:text="COMPUTER MOVE"
+            android:textColor="#000000"
+    />
+
+
+
+</LinearLayout>
